@@ -1,0 +1,6 @@
+Features:
+-insert timer? SFML? Threads?
+-allow flip board
+-insert random piece removal option
+-insert main menu
+-save move logs with fstream

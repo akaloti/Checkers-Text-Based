@@ -1,7 +1,6 @@
 #ifndef CHECKERSFUNCTIONS_H
 #define	CHECKERSFUNCTIONS_H
 
-#include <SFML/Graphics.hpp>
 #include "constants.h"
 #include "gameBoard.h"
 #include "square.h"
@@ -11,8 +10,6 @@ using namespace checkers;
 #include <iostream>
 
 void prepareGame();
-
-std::string get_GUI_Input();
 
 bool isSquare(std::string square);
 char reverseCrown(char color); //return crowned version of color ('R' or 'B')

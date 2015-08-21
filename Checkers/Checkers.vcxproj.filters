@@ -33,18 +33,6 @@
     <ClCompile Include="checkersVariables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CheckersBoard.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckersPiece.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckersSquare.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="square.h">
@@ -59,22 +47,10 @@
     <ClInclude Include="gameBoard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="checkersFunctions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="checkersVariables.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CheckersBoard.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckersPiece.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckersSquare.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Button.h">
+    <ClInclude Include="checkersFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

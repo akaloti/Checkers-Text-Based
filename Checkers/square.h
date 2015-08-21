@@ -1,7 +1,6 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
-#include <SFML/Graphics.hpp>
 #include <string>
 #include <vector>
 #include <iostream>

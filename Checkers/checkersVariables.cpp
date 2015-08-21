@@ -16,5 +16,3 @@ int checkers::selected = 0; //holds vector address of square of selected piece
 int checkers::targeted = 0; //holds vector address of square to move a piece to
 int checkers::inBetween = 0; //holds vector address of square in between the
 			   //selected and targeted squares (in case of capture)
-
-ch::Board checkers::gameBoard = ch::Board(600.0f);

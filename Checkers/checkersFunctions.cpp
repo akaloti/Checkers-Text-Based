@@ -33,44 +33,6 @@ void prepareGame() {
 	return;
 }
 
-// Asks the user for an input in the form of a click on the window. The window
-// will respond to other actions such as closing the window as well.
-std::string get_GUI_Input() {
-  std::string result = " ";
-
-  if (!gameBoard.getWindow()) {
-    return "quit";
-  }
-
-  while (gameBoard.getWindow()->isOpen()) {
-    sf::Event what;
-
-    while (gameBoard.getWindow()->pollEvent(what)) {
-      switch (what.type) {
-      case sf::Event::Closed:
-        gameBoard.getWindow()->close();
-        return "quit";
-      case sf::Event::MouseButtonPressed:
-        result = gameBoard.interpretClick(what, checkers::squares);
-        return result;
-        break;
-      case sf::Event::KeyReleased:
-        switch (what.key.code) {
-          ;
-        }
-      default:
-        break;
-      }
-    }
-
-    gameBoard.getWindow()->clear();
-    gameBoard.draw(*gameBoard.getWindow(), checkers::squares);
-    gameBoard.getWindow()->display();
-  }
-
-  return result;
-}
-
 bool isSquare (std::string sq) {
 	//only used in constructor
 	if(sq == "a1" || sq == "c1" || sq == "e1" || sq == "g1" 

@@ -4,19 +4,8 @@ bool isSquare(std::string square);
 
 namespace sq {
 
-// This mutex is needed because both threads access Square::c (see
-// Square::changeColor).
-sf::Mutex squaresMutex;
-
 void Square::changeColor(char newColor) {
-  // The main thread checkers Square::c to decide what to display, so while
-  // this function changes Square::c, squaresMutex prevents any conflicts
-  // between the two threads by preventing both threads from accessing
-  // Square::c at the same time.
-  squaresMutex.lock();
 	if (c != newColor) c = newColor;
-  squaresMutex.unlock();
-	return;
 }
 
 Square::Square() {

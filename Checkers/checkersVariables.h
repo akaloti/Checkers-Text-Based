@@ -6,7 +6,6 @@
 #include <iostream>
 #include <exception>
 #include "square.h"
-#include "CheckersBoard.h"
 
 namespace checkers 
 {
@@ -25,8 +24,6 @@ namespace checkers
 	extern int targeted; //holds vector address of square to move a piece to
 	extern int inBetween; //holds vector address of square in between the
 				   //selected and targeted squares (in case of capture)
-
-  extern ch::Board gameBoard;
 } // namespace checkers
 
 #endif

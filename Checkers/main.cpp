@@ -177,30 +177,12 @@
 
 */
 
-#include <SFML/Graphics.hpp>
 #include <iostream>
-#include "CheckersBoard.h"
 #include "checkersFunctions.h"
 #include "checkersVariables.h"
 
-// Constructs window and the checkers board. Creates a thread for 
-// checkersGame(). Handles exceptions.
 int main()
 try {
-  // sf::RenderWindow gameWindow(sf::VideoMode(1000, 800), 
-  //                             "Checkers", sf::Style::Close);
-
-  // The one and only checkers board to display.
-  // checkers::gameBoard = ch::Board(600.0f);
-  // gameBoard.setBorderThickness(5.0f);
-  // gameBoard.setPosition(sf::Vector2f(20.0f, 20.0f));
-  // gameBoard.setBorderColor(sf::Color::Red);
-  // gameBoard.setWindow(gameWindow);
-  
-  // gameWindow.clear();
-  // gameBoard.draw(gameWindow, checkers::squares);
-  // gameWindow.display();
-
   checkersGame();
 
 	return 0;

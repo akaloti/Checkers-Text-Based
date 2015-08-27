@@ -10,6 +10,8 @@ This is a Checkers application that I programmed during the summer (2013) after 
 
 I programmed this in C++. I used Microsoft Visual C++ 2010 Express.
 
+See the following video for a demonstration: https://www.youtube.com/watch?v=XiTYLoOd7v8. 
+
 
 Features
 --------
@@ -21,6 +23,8 @@ Directions
 ----------
 
 To open the project, open Checkers.sln with Microsoft Visual C++ 2010 Express. Run the project to try it.
+
+To see additional commands while running the project, enter "help" or "h".
 
 
 Releases

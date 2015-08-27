@@ -8,6 +8,9 @@ Please see my repository Checkers-with-GUI for a better version of this applicat
 
 This is a Checkers application that I programmed during the summer (2013) after my sophomore year in high school, before I knew anything of object-oriented programming. Thus, the code, divided among many files, consists of many functions, and may not be particularly well-written.
 
+I wrote this application before I knew how to use Git, so I intend this repository
+to contain the finished application (with only a few commits).
+
 I programmed this in C++. I used Microsoft Visual C++ 2010 Express.
 
 See the following video for a demonstration: https://www.youtube.com/watch?v=XiTYLoOd7v8. 
